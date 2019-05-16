@@ -13,7 +13,7 @@ public class ProducerDemoWithCallback {
     public static void main(String[] args) {
 
         // Creating a Logger
-        final Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+        final Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
 
